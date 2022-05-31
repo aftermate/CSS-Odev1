@@ -1,0 +1,71 @@
+p {
+    color: darkslategray;
+    text-align: left;
+  }
+
+.baslik {
+    font-size: 50px;
+    font-weight: bold;
+}
+  html {
+    font-size: 20px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+    background-color: white;  
+    text-align: center;
+}
+
+a {
+    color: darkred;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: red;
+  }
+    
+
+}
+
+figcaption {
+    color: darkslateblue;
+}
+
+footer {
+    font-size: 15px;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 32%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
